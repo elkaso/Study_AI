@@ -40,13 +40,9 @@ jsonpath-python==1.0.6
 jsonpointer==2.4
 jsonschema==4.21.1
 jsonschema-specifications==2023.12.1
-langchain==0.1.11
+langchain==0.0.220  # 버전 낮춤
 langchain-community==0.0.27
-langchain-core==0.1.30
-langchain-openai==0.0.8
-langchain-text-splitters==0.0.1
-langdetect==1.0.9
-langsmith==0.1.23
+langsmith==0.0.7  # 버전 낮춤
 loguru==0.7.2
 lxml==5.1.0
 markdown-it-py==3.0.0
@@ -66,7 +62,7 @@ pandas==2.2.1
 pillow==10.2.0
 protobuf==4.25.3
 pyarrow==15.0.1
-pydantic==1.10.12  # 수정된 부분
+pydantic==1.10.12  # v1.10.12로 고정
 pydeck==0.8.1b0
 Pygments==2.17.2
 pypdf==4.1.0
